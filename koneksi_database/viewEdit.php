@@ -41,7 +41,7 @@
                         <label for="nama" class="form-label">NAMA BARANG :</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Barang" value="<?php echo $nama ?>">
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Barang" value="<?php echo $nama; ?>">
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@
                         <label for="quantity" class="form-label">Quantity :</label>
                     </div>
                     <div class="col-9">
-                        <input type="text" class="form-control" name="quantity" id="quantity" placeholder="Quantity" value="<?php echo $quantity ?>">
+                        <input type="text" class="form-control" name="quantity" id="quantity" placeholder="Quantity" value="<?php echo $quantity; ?>">
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
                 </div>
                 <div class="row">
                     <div class="col-10">
-                        <textarea class="form-control" id="keterangan" rows="3" placeholder="Keterangan Barang" name="keterangan"><?php echo $keterangan ?></textarea>
+                        <textarea class="form-control" id="keterangan" rows="3" placeholder="Keterangan Barang" name="keterangan"><?php echo $keterangan; ?></textarea>
                     </div>
                 </div>
 
