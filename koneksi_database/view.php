@@ -41,7 +41,7 @@
                 <div class="col-md-12">
                     <div class="mt-5 mb-3 clearfix">
                         <h2 class="pull-left">Data Barang</h2>
-                        <a href="viewInsert.php" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Tambah Barang</a>
+                        <a href="viewInsert.php" data-toggle="tooltip" title="Klik untuk menyimpan" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Tambah Barang</a>
                     </div>
                     <?php
                     // Include config file
