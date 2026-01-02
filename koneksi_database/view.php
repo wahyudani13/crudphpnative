@@ -57,7 +57,7 @@
                             <th>Action</th>
                         </tr>
                         <?php
-                        while ($row = mysqli_fetch_array($result)) {
+                        foreach ($result as $row) {
                             echo "<tr>";
                             echo "<td>" . $row['id'] . "</td>";
                             echo "<td>" . $row['nama'] . "</td>";
